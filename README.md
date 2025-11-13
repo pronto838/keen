@@ -133,6 +133,11 @@ curl -X DELETE "https://your-worker.workers.dev/{UUID}/api/preferred-ips" \
 - **容错机制**：多重备用方案，确保服务稳定性
 - **缓存优化**：智能缓存机制，减少重复计算
 
+#### ⚡ ip优先代码
+```bash
+docker exec -it cloudflare-speedtest python3 /app/cloudflare_speedtest.py
+```
+
 ###  致谢
 
   * 本项目基于 [zizifn/edgetunnel](https://github.com/zizifn/edgetunnel) 修改，感谢原作者的贡献。
